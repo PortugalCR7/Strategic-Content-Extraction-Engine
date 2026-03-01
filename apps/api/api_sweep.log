@@ -1,0 +1,266 @@
+NOTION TOKEN START: ntn_200620
+{"level":30,"time":1772210528356,"pid":5141,"hostname":"MacBook-Air.local","msg":"Server listening at http://127.0.0.1:3001"}
+🚀 API running on http://0.0.0.0:3001
+{"level":30,"time":1772210528356,"pid":5141,"hostname":"MacBook-Air.local","msg":"Server listening at http://192.168.1.142:3001"}
+{"level":30,"time":1772210532001,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-1","req":{"method":"GET","url":"/wispr/health","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":51882},"msg":"incoming request"}
+{"level":30,"time":1772210534254,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-1","res":{"statusCode":200},"responseTime":2252.475042000413,"msg":"request completed"}
+{"level":30,"time":1772210545824,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":51895},"msg":"incoming request"}
+{"level":30,"time":1772210546875,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","transcript_hash":"f383fd5923aa0ea920e0ebed5caf468ddd7ed8a9e5d9c789eca68c0a0b7fd856","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772210547315,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"ingest","duration_ms":440,"success":true}
+{"level":30,"time":1772210547318,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772210547831,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"clean","duration_ms":516,"success":true}
+{"level":30,"time":1772210575599,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772210575886,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"theme","duration_ms":28055,"success":true}
+{"level":30,"time":1772210586412,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772210586828,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"angles","duration_ms":10942,"success":true}
+{"level":30,"time":1772210634748,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"matrix","duration_ms":47920,"success":true}
+{"event":"notion_export_debug_stats","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","theme_map_type":"object","theme_map_size":2333,"angles_type":"object","angles_size":1822,"idea_matrix_type":"object","idea_matrix_size":10337}
+{"event":"notion_export_diag_blocks","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","api_method":"pages.create","title":"Own Your Choices [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","totalBlocks":51,"chunkCount":2,"serialized_char_length":98235}
+{"event":"notion_export_batch_start","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":93314,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4922,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":98236,"exportDuration":46645}
+{"level":30,"time":1772210682693,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","run_id":"ea8bfe4c-ec01-44cf-a008-4d6fb2e6f5aa","step":"export-notion","duration_ms":47945,"success":true}
+{"level":30,"time":1772210682694,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-2","res":{"statusCode":200},"responseTime":136869.87845800072,"msg":"request completed"}
+{"level":30,"time":1772210682699,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":51941},"msg":"incoming request"}
+{"level":30,"time":1772210683470,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","transcript_hash":"9db024fa4d8d9fe5890e0aeff07c3c7c6ba3bdd1a51a628dc37e61f6d6213a9a","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772210683904,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"ingest","duration_ms":433,"success":true}
+{"level":30,"time":1772210683908,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772210684364,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"clean","duration_ms":460,"success":true}
+{"level":30,"time":1772210713899,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772210714445,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"theme","duration_ms":30081,"success":true}
+{"level":30,"time":1772210724957,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772210725270,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"angles","duration_ms":10825,"success":true}
+{"level":30,"time":1772210775774,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"matrix","duration_ms":50503,"success":true}
+{"event":"notion_export_debug_stats","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","theme_map_type":"object","theme_map_size":2336,"angles_type":"object","angles_size":1975,"idea_matrix_type":"object","idea_matrix_size":11273}
+{"event":"notion_export_diag_blocks","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","api_method":"pages.create","title":"Own Your Choices [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","totalBlocks":51,"chunkCount":2,"serialized_char_length":99327}
+{"event":"notion_export_batch_start","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":94276,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":5052,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":99328,"exportDuration":8294}
+{"level":30,"time":1772210784883,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","run_id":"5cac93b5-905e-45ba-a9e1-e84605f5e9b4","step":"export-notion","duration_ms":9108,"success":true}
+{"level":30,"time":1772210784884,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-3","res":{"statusCode":200},"responseTime":102184.73070900142,"msg":"request completed"}
+{"level":30,"time":1772210784889,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":51980},"msg":"incoming request"}
+{"level":30,"time":1772210785530,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","transcript_hash":"17bde6e1674e21283a20cd1f9fed0f55a13794d6a74f737312bbd008e9bd348f","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772210785941,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"ingest","duration_ms":411,"success":true}
+{"level":30,"time":1772210785943,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772210786341,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"clean","duration_ms":400,"success":true}
+{"level":30,"time":1772210809206,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772210809740,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"theme","duration_ms":23399,"success":true}
+{"level":30,"time":1772210820220,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772210820632,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"angles","duration_ms":10891,"success":true}
+{"level":30,"time":1772210868286,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"matrix","duration_ms":47654,"success":true}
+{"event":"notion_export_debug_stats","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","theme_map_type":"object","theme_map_size":2403,"angles_type":"object","angles_size":1862,"idea_matrix_type":"object","idea_matrix_size":9982}
+{"event":"notion_export_diag_blocks","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","api_method":"pages.create","title":"Own Your Path [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","totalBlocks":51,"chunkCount":2,"serialized_char_length":94658}
+{"event":"notion_export_batch_start","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":90221,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4438,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":94659,"exportDuration":10142}
+{"level":30,"time":1772210879418,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","run_id":"cc0b0893-6b16-4bdd-b2f8-72bc02dc913a","step":"export-notion","duration_ms":11132,"success":true}
+{"level":30,"time":1772210879419,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-4","res":{"statusCode":200},"responseTime":94529.99375000224,"msg":"request completed"}
+{"level":30,"time":1772210879424,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52021},"msg":"incoming request"}
+{"level":30,"time":1772210879831,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","transcript_hash":"66cf370a5508d4efa830e74f9f3c77ad8d992a3ca1ba04687545ca9d4c663879","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772210880114,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"ingest","duration_ms":283,"success":true}
+{"level":30,"time":1772210880118,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772210880404,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"clean","duration_ms":290,"success":true}
+{"level":30,"time":1772210890309,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772210890690,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"theme","duration_ms":10285,"success":true}
+{"level":30,"time":1772210904105,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772210904566,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"angles","duration_ms":13876,"success":true}
+{"level":30,"time":1772210949341,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"matrix","duration_ms":44775,"success":true}
+{"event":"notion_export_debug_stats","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","theme_map_type":"object","theme_map_size":2183,"angles_type":"object","angles_size":2086,"idea_matrix_type":"object","idea_matrix_size":8895}
+{"event":"notion_export_diag_blocks","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","api_method":"pages.create","title":"Own Your Decisions [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","totalBlocks":51,"chunkCount":2,"serialized_char_length":94408}
+{"event":"notion_export_batch_start","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":89970,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4439,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":94409,"exportDuration":10924}
+{"level":30,"time":1772210961195,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","run_id":"d3f69310-8a35-40f7-9995-fd750d9b1923","step":"export-notion","duration_ms":11853,"success":true}
+{"level":30,"time":1772210961195,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-5","res":{"statusCode":200},"responseTime":81771.56804200262,"msg":"request completed"}
+{"level":30,"time":1772210961201,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52049},"msg":"incoming request"}
+{"level":30,"time":1772210961728,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","transcript_hash":"307b3e012cf31f26b467dbb54d34696d957ff0b1e0ad5f8a8be83f21f5fa4061","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772210962174,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"ingest","duration_ms":446,"success":true}
+{"level":30,"time":1772210962179,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772210962494,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"clean","duration_ms":320,"success":true}
+{"level":30,"time":1772210971838,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772210972343,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"theme","duration_ms":9849,"success":true}
+{"level":30,"time":1772210983078,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772210983333,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"angles","duration_ms":10990,"success":true}
+{"level":30,"time":1772211028696,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"matrix","duration_ms":45363,"success":true}
+{"event":"notion_export_debug_stats","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","theme_map_type":"object","theme_map_size":1946,"angles_type":"object","angles_size":2034,"idea_matrix_type":"object","idea_matrix_size":9599}
+{"event":"notion_export_diag_blocks","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","api_method":"pages.create","title":"Own Your Trajectory [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","totalBlocks":51,"chunkCount":2,"serialized_char_length":94823}
+{"event":"notion_export_batch_start","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":90348,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4476,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":94824,"exportDuration":10140}
+{"level":30,"time":1772211039624,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","run_id":"51062401-e1a2-44b5-adaa-eaaa00b2b678","step":"export-notion","duration_ms":10928,"success":true}
+{"level":30,"time":1772211039625,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-6","res":{"statusCode":200},"responseTime":78423.9548330009,"msg":"request completed"}
+{"level":30,"time":1772211039632,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52085},"msg":"incoming request"}
+{"level":30,"time":1772211040166,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","transcript_hash":"fd7b43ccebc428b8fea17c29cb484b822a3cfaeff1da1715432bc3e5d5688180","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772211040542,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"ingest","duration_ms":376,"success":true}
+{"level":30,"time":1772211040547,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772211040903,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"clean","duration_ms":361,"success":true}
+{"level":30,"time":1772211051597,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772211052030,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"theme","duration_ms":11127,"success":true}
+{"level":30,"time":1772211064113,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772211064444,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"angles","duration_ms":12414,"success":true}
+{"level":30,"time":1772211114302,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"matrix","duration_ms":49858,"success":true}
+{"event":"notion_export_debug_stats","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","theme_map_type":"object","theme_map_size":2277,"angles_type":"object","angles_size":1957,"idea_matrix_type":"object","idea_matrix_size":9615}
+{"event":"notion_export_diag_blocks","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","api_method":"pages.create","title":"Own Your Path Forward [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","totalBlocks":51,"chunkCount":2,"serialized_char_length":95093}
+{"event":"notion_export_batch_start","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":90641,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4453,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":95094,"exportDuration":7272}
+{"level":30,"time":1772211122356,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","run_id":"53d92721-5ca0-4e48-8ef4-0f7cdb78db2a","step":"export-notion","duration_ms":8054,"success":true}
+{"level":30,"time":1772211122357,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-7","res":{"statusCode":200},"responseTime":82725.23987499997,"msg":"request completed"}
+{"level":30,"time":1772211122361,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52132},"msg":"incoming request"}
+{"level":30,"time":1772211122857,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","transcript_hash":"8054d6d1928cd5bd274aea31d60709e4563a1d40343f18594ce716581cde1cde","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772211123275,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"ingest","duration_ms":418,"success":true}
+{"level":30,"time":1772211123278,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772211123599,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"clean","duration_ms":323,"success":true}
+{"level":30,"time":1772211131594,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772211132327,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"theme","duration_ms":8728,"success":true}
+{"level":30,"time":1772211144327,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772211144962,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"angles","duration_ms":12635,"success":true}
+{"level":30,"time":1772211194486,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"matrix","duration_ms":49524,"success":true}
+{"event":"notion_export_debug_stats","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","theme_map_type":"object","theme_map_size":2312,"angles_type":"object","angles_size":1958,"idea_matrix_type":"object","idea_matrix_size":10605}
+{"event":"notion_export_diag_blocks","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","api_method":"pages.create","title":"Own Your Choices Boldly [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","totalBlocks":51,"chunkCount":2,"serialized_char_length":96119}
+{"event":"notion_export_batch_start","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":91538,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4582,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":96120,"exportDuration":9471}
+{"level":30,"time":1772211204944,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","run_id":"874b4099-1ea8-4f55-bc14-5251b269ce6f","step":"export-notion","duration_ms":10458,"success":true}
+{"level":30,"time":1772211204945,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-8","res":{"statusCode":200},"responseTime":82583.31574999914,"msg":"request completed"}
+{"level":30,"time":1772211204956,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52172},"msg":"incoming request"}
+{"level":30,"time":1772211205632,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","transcript_hash":"7dc64b182377bd54adabe6150b4e6484041419e844189156dd530e1398c32546","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772211205976,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"ingest","duration_ms":343,"success":true}
+{"level":30,"time":1772211205978,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772211206515,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"clean","duration_ms":539,"success":true}
+{"level":30,"time":1772211216096,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772211216652,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"theme","duration_ms":10137,"success":true}
+{"level":30,"time":1772211226643,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772211227184,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"angles","duration_ms":10532,"success":true}
+{"level":30,"time":1772211276503,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"matrix","duration_ms":49319,"success":true}
+{"event":"notion_export_debug_stats","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","theme_map_type":"object","theme_map_size":2492,"angles_type":"object","angles_size":1979,"idea_matrix_type":"object","idea_matrix_size":10058}
+{"event":"notion_export_diag_blocks","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","api_method":"pages.create","title":"Own Your Choices Now [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","totalBlocks":51,"chunkCount":2,"serialized_char_length":99105}
+{"event":"notion_export_batch_start","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":94082,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":5024,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":99106,"exportDuration":9418}
+{"level":30,"time":1772211286678,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","run_id":"46401ddd-3409-46fa-be8e-a0b31c7973ac","step":"export-notion","duration_ms":10175,"success":true}
+{"level":30,"time":1772211286679,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-9","res":{"statusCode":200},"responseTime":81723.05112499744,"msg":"request completed"}
+{"level":30,"time":1772211286685,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52208},"msg":"incoming request"}
+{"level":30,"time":1772211287227,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","transcript_hash":"9cb963e4b304f8241fc400cb4caf3981b5a1225ebee087e932679d71a2636965","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772211287606,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"ingest","duration_ms":378,"success":true}
+{"level":30,"time":1772211287610,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772211288024,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"clean","duration_ms":418,"success":true}
+{"level":30,"time":1772211301600,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772211301961,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"theme","duration_ms":13937,"success":true}
+{"level":30,"time":1772211311020,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772211311334,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"angles","duration_ms":9373,"success":true}
+{"level":30,"time":1772211362828,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"matrix","duration_ms":51494,"success":true}
+{"event":"notion_export_debug_stats","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","theme_map_type":"object","theme_map_size":2726,"angles_type":"object","angles_size":1902,"idea_matrix_type":"object","idea_matrix_size":10267}
+{"event":"notion_export_diag_blocks","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","api_method":"pages.create","title":"Own Your Path [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","totalBlocks":51,"chunkCount":2,"serialized_char_length":96139}
+{"event":"notion_export_batch_start","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":91563,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4577,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":96140,"exportDuration":6992}
+{"level":30,"time":1772211370617,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","run_id":"adb555ca-9e55-4b44-b702-3df1d95223c0","step":"export-notion","duration_ms":7789,"success":true}
+{"level":30,"time":1772211370618,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-a","res":{"statusCode":200},"responseTime":83932.3149579987,"msg":"request completed"}
+{"level":30,"time":1772211370622,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","req":{"method":"POST","url":"/wispr/webhook","host":"localhost:3001","remoteAddress":"127.0.0.1","remotePort":52242},"msg":"incoming request"}
+{"level":30,"time":1772211371102,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","transcript_hash":"9e9db20682513f8a761fb5177407469499d67dacb163b0d416db016b84819892","resolution":"new_run","msg":"wispr/webhook: run created"}
+{"level":30,"time":1772211371499,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"ingest","duration_ms":396,"success":true}
+{"level":30,"time":1772211371503,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"clean","input_char_length":51360,"output_char_length":51360,"retention_pct":1,"msg":"wispr/webhook: deterministic clean completed"}
+{"level":30,"time":1772211371771,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"clean","duration_ms":272,"success":true}
+{"level":30,"time":1772211383577,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","step":"telemetry_theme","quote_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: theme telemetry"}
+{"level":30,"time":1772211384117,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"theme","duration_ms":12346,"success":true}
+{"level":30,"time":1772211394981,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","step":"telemetry_angles","hook_verbatim_match":true,"detected_generic_phrases":[],"msg":"wispr/webhook: angles telemetry"}
+{"level":30,"time":1772211395363,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"angles","duration_ms":11246,"success":true}
+{"level":30,"time":1772211442445,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"matrix","duration_ms":47082,"success":true}
+{"event":"notion_export_debug_stats","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","theme_map_type":"object","theme_map_size":2250,"angles_type":"object","angles_size":2124,"idea_matrix_type":"object","idea_matrix_size":9956}
+{"event":"notion_export_diag_blocks","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","totalBlocks":51}
+{"event":"notion_api_call_start","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","api_method":"pages.create","title":"Own Your Path [2026-02-27]"}
+{"event":"notion_api_call_success","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","api_method":"pages.create"}
+{"event":"notion_export_diag_pre_chunk","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","totalBlocks":51,"chunkCount":2,"serialized_char_length":95574}
+{"event":"notion_export_batch_start","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","batch":1,"batchStart":0,"batchEnd":49,"batchSize":50}
+{"event":"notion_api_call_start","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","api_method":"blocks.children.append","batch":1,"blocks_attempted":50,"chars_sent":91018,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","api_method":"blocks.children.append","batch":1}
+{"event":"notion_export_batch_end","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","batch":1,"batchStart":0,"batchEnd":49,"blocksAppendedSoFar":50}
+{"event":"notion_export_batch_start","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","batch":2,"batchStart":50,"batchEnd":50,"batchSize":1}
+{"event":"notion_api_call_start","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","api_method":"blocks.children.append","batch":2,"blocks_attempted":1,"chars_sent":4557,"blocks_in_array_before_append":51}
+{"event":"notion_api_call_success","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","api_method":"blocks.children.append","batch":2}
+{"event":"notion_export_batch_end","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","batch":2,"batchStart":50,"batchEnd":50,"blocksAppendedSoFar":51}
+{"event":"notion_export_complete","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","totalBlocks":51,"totalBlocksAppended":51,"blocksMatch":true,"chunkCount":2,"totalCharsWritten":95575,"exportDuration":10524}
+{"level":30,"time":1772211454026,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","run_id":"286c657a-ee9a-4ea2-b8cc-ede37fb9f715","step":"export-notion","duration_ms":11581,"success":true}
+{"level":30,"time":1772211454027,"pid":5141,"hostname":"MacBook-Air.local","reqId":"req-b","res":{"statusCode":200},"responseTime":83404.46483299881,"msg":"request completed"}

@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+:root {
+  --background-matte: #0B0D10;
+  --indigo-accent: #6366F1;
+  --indigo-glow: rgba(99, 102, 241, 0.10);
+  --text-primary: #F5F5F5;
+  --text-secondary: #71717A;
+  --background: #0B0D10;
+  --foreground: #F5F5F5;
+  --accent: #6366F1;
+  --luminous-wash: rgba(99, 102, 241, 0.08);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes luminous-breath {
+
+  0%,
+  100% {
+    opacity: 0.05;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.12;
+    transform: scale(1.05);
+  }
+}
+
+.animate-luminous-breath {
+  animation: luminous-breath 12s ease-in-out infinite;
+}
+
+/* ── PONO Core Orb ── */
+
+@keyframes orb-breathe {
+
+  0%,
+  100% {
+    box-shadow: 0 0 25px 2px rgba(99, 102, 241, 0.1);
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 45px 5px rgba(99, 102, 241, 0.18);
+    transform: scale(1.015);
+  }
+}
+
+@keyframes orb-listening {
+
+  0%,
+  100% {
+    transform: scale(1.02);
+    box-shadow: 0 0 40px 6px rgba(99, 102, 241, 0.20);
+  }
+
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 55px 12px rgba(99, 102, 241, 0.28);
+  }
+}
+
+@keyframes orb-processing {
+
+  0%,
+  100% {
+    transform: scale(1.02);
+    box-shadow: 0 0 35px 4px rgba(99, 102, 241, 0.2);
+  }
+
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 60px 10px rgba(99, 102, 241, 0.3);
+  }
+}
+
+.animate-orb-breathe {
+  animation: orb-breathe 8s ease-in-out infinite;
+}
+
+.animate-orb-listening {
+  animation: orb-listening 1.2s ease-in-out infinite;
+}
+
+.animate-orb-processing {
+  animation: orb-processing 2.5s ease-in-out infinite;
+}
+
+/* ── Centered Phase Progression ── */
+
+@keyframes phase-vortex {
+  0% {
+    opacity: 0;
+    transform: scale(0.98) translateY(10px);
+    filter: blur(8px);
+  }
+
+  15% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.02) translateY(-10px);
+    filter: blur(8px);
+  }
+}
+
+.animate-phase-step {
+  animation: phase-vortex 3.5s ease-in-out forwards;
+}
+
+/* ── UI Elements ── */
+
+.matte-container {
+  background-color: rgba(20, 20, 22, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 10px;
+}
+
+*:focus {
+  outline: none;
+}

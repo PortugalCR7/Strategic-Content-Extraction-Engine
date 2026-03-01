@@ -1,0 +1,162 @@
+Starting execution of 12 webhook dispatches...
+
+Dispatching [1/12]: length 1002 words
+  -> Response: 500
+  -> Duration: 82923ms
+
+Dispatching [2/12]: length 805 words
+  -> Response: 200
+  -> Duration: 80053ms
+
+Dispatching [3/12]: length 807 words
+  -> Response: 200
+  -> Duration: 57262ms
+
+Dispatching [4/12]: length 3002 words
+  -> Response: 200
+  -> Duration: 78149ms
+
+Dispatching [5/12]: length 3002 words
+  -> Response: 200
+  -> Duration: 78726ms
+
+Dispatching [6/12]: length 3002 words
+  -> Response: 200
+  -> Duration: 68068ms
+
+Dispatching [7/12]: length 3002 words
+  -> Response: 200
+  -> Duration: 71993ms
+
+Dispatching [8/12]: length 6002 words
+  -> Response: 200
+  -> Duration: 75367ms
+
+Dispatching [9/12]: length 6002 words
+  -> Response: 200
+  -> Duration: 66027ms
+
+Dispatching [10/12]: length 6001 words
+  -> Response: 200
+  -> Duration: 62842ms
+
+Dispatching [11/12]: length 6002 words
+  -> Response: 200
+  -> Duration: 59753ms
+
+Dispatching [12/12]: length 6002 words
+  -> Response: 200
+  -> Duration: 57886ms
+
+Phase 1 Complete. Results written to /tmp/phase1_results.json
+[
+  {
+    "test_index": 1,
+    "source_id": "74a18c03-9a8d-4488-a601-93ed7126e8cd",
+    "word_count": 1002,
+    "status_code": 500,
+    "run_id": "e26eb0ec-4335-451b-b983-ef9c2e37f405",
+    "total_pipeline_time_ms": 82923,
+    "status": "error",
+    "error_step": "matrix"
+  },
+  {
+    "test_index": 2,
+    "source_id": "95472761-b2ef-4808-9df2-e80b7ebc5ba3",
+    "word_count": 805,
+    "status_code": 200,
+    "run_id": "4807c921-8b73-4cfb-8730-9725394239b4",
+    "total_pipeline_time_ms": 80053,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 3,
+    "source_id": "f018378e-0d42-4c15-8aae-6dfe55978767",
+    "word_count": 807,
+    "status_code": 200,
+    "run_id": "559aa919-9037-4bcd-9bfe-f79c556e40d2",
+    "total_pipeline_time_ms": 57262,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 4,
+    "source_id": "cdde215e-7ec5-45bb-bd80-315e8717f0f0",
+    "word_count": 3002,
+    "status_code": 200,
+    "run_id": "c8e13b94-0fd1-4d02-adb5-9021eef119bf",
+    "total_pipeline_time_ms": 78149,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 5,
+    "source_id": "8ac27987-adef-4d58-b0bd-a835cd05071b",
+    "word_count": 3002,
+    "status_code": 200,
+    "run_id": "1555359b-c3bd-4777-8fbc-da8bac261d82",
+    "total_pipeline_time_ms": 78726,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 6,
+    "source_id": "94a1dc5a-39cc-4cfc-9762-0b78e7e54fb8",
+    "word_count": 3002,
+    "status_code": 200,
+    "run_id": "aae82c26-ab5d-4f06-8859-b52eb5a35827",
+    "total_pipeline_time_ms": 68068,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 7,
+    "source_id": "7afaae5c-19b1-4b30-857d-16d2bf52c728",
+    "word_count": 3002,
+    "status_code": 200,
+    "run_id": "9bb6cda8-2dcb-4e66-96af-ee4458ca1928",
+    "total_pipeline_time_ms": 71993,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 8,
+    "source_id": "5e6cf2d3-d245-4960-a3db-c9fe355b650d",
+    "word_count": 6002,
+    "status_code": 200,
+    "run_id": "c7732f6c-8b60-477e-9236-79387eac4f5c",
+    "total_pipeline_time_ms": 75367,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 9,
+    "source_id": "8d615222-a5fa-444f-8458-b3223ad038ab",
+    "word_count": 6002,
+    "status_code": 200,
+    "run_id": "14a2d986-bd47-49f9-bb4c-84db5b5e0b57",
+    "total_pipeline_time_ms": 66027,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 10,
+    "source_id": "a684e349-305e-4fc0-96e4-7769c511bb9c",
+    "word_count": 6001,
+    "status_code": 200,
+    "run_id": "b82a13be-f064-4d53-9395-c10e388c7c95",
+    "total_pipeline_time_ms": 62842,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 11,
+    "source_id": "5e6cf2d3-d245-4960-a3db-c9fe355b650d",
+    "word_count": 6002,
+    "status_code": 200,
+    "run_id": "d3668911-7224-48e6-a39f-20608c022779",
+    "total_pipeline_time_ms": 59753,
+    "status": "ready_for_output"
+  },
+  {
+    "test_index": 12,
+    "source_id": "8d615222-a5fa-444f-8458-b3223ad038ab",
+    "word_count": 6002,
+    "status_code": 200,
+    "run_id": "d28a7524-4c8e-415f-b7c3-2a1d31491391",
+    "total_pipeline_time_ms": 57886,
+    "status": "ready_for_output"
+  }
+]
