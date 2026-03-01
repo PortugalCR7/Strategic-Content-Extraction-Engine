@@ -21,6 +21,7 @@ export const env = {
     NOTION_API_KEY: process.env["NOTION_API_KEY"] ?? "",
     NOTION_CLIENT_ID: process.env["NOTION_CLIENT_ID"] ?? "",
     NOTION_CLIENT_SECRET: process.env["NOTION_CLIENT_SECRET"] ?? "",
+    NOTION_REDIRECT_URI: process.env["NOTION_REDIRECT_URI"] ?? "",
 
     // ── Session ─────────────────────────────────────
     SESSION_ENCRYPTION_SECRET: process.env["SESSION_ENCRYPTION_SECRET"] ?? "default_secret_change_me_in_production",

@@ -165,7 +165,7 @@ app.get("/auth/session", async (request, reply) => {
 });
 
 app.get("/auth/notion", async (request, reply) => {
-    const notionAuthUrl = `https://api.notion.com/v1/oauth/authorize?client_id=${env.NOTION_CLIENT_ID}&response_type=code&owner=user&redirect_uri=${encodeURIComponent(`http://localhost:3001/auth/notion/callback`)}`;
+    const notionAuthUrl = `https://www.notion.so/install-integration?response_type=code&client_id=${env.NOTION_CLIENT_ID}&redirect_uri=${encodeURIComponent(env.NOTION_REDIRECT_URI)}&owner=user`;
     return reply.redirect(notionAuthUrl);
 });
 
@@ -185,12 +185,14 @@ app.get("/auth/notion/callback", async (request, reply) => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                Authorization: `Basic ${Buffer.from(`${env.NOTION_CLIENT_ID}:${env.NOTION_CLIENT_SECRET}`).toString("base64")}`,
+                Authorization: `Basic ${Buffer.from(
+                    `${env.NOTION_CLIENT_ID}:${env.NOTION_CLIENT_SECRET}`
+                ).toString("base64")}`,
             },
             body: JSON.stringify({
                 grant_type: "authorization_code",
                 code,
-                redirect_uri: `http://localhost:3001/auth/notion/callback`,
+                redirect_uri: env.NOTION_REDIRECT_URI,
             }),
         });
 
