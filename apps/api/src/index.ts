@@ -165,7 +165,7 @@ app.get("/auth/session", async (request, reply) => {
 });
 
 app.get("/auth/notion", async (request, reply) => {
-    const notionAuthUrl = `https://www.notion.so/install-integration?response_type=code&client_id=${env.NOTION_CLIENT_ID}&redirect_uri=${encodeURIComponent(env.NOTION_REDIRECT_URI)}&owner=user`;
+    const notionAuthUrl = `https://api.notion.com/v1/oauth/authorize?client_id=${env.NOTION_CLIENT_ID}&response_type=code&owner=user&redirect_uri=${encodeURIComponent(env.NOTION_REDIRECT_URI)}`;
     return reply.redirect(notionAuthUrl);
 });
 
