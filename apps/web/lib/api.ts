@@ -1,4 +1,5 @@
-const API_BASE = process.env["NEXT_PUBLIC_API_URL"]!;
+const API_BASE = "";
+console.log("API_BASE BUILD MARKER v2");
 
 export const AUTH_URL = `${API_BASE}/auth/notion`;
 
