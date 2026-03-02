@@ -1,6 +1,6 @@
-import { notion } from "./notionClient.js";
+import { notion } from "./notionClient";
 import { env } from "./env";
-import { supabase } from "./supabase.js";
+import { supabase } from "./supabase";
 
 /* ── Notion block helpers ────────────────────────── */
 
