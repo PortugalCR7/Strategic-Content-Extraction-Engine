@@ -407,16 +407,42 @@ export async function POST(request: NextRequest) {
             }, { status: 400 });
         }
 
-        const {
-            notionPageUrl,
-            retry_triggered,
-            total_blocks_generated,
-            total_chars_sent,
-        } = await withTimeout(
-            exportRunToNotion(finalRun, session),
-            120_000,
-            "export-notion"
-        );
+        let notionPageUrl: string | null = null;
+        let retry_triggered = false;
+        let total_blocks_generated = 0;
+        let total_chars_sent = 0;
+
+        try {
+            const exportResult = await withTimeout(
+                exportRunToNotion(finalRun, session),
+                120_000,
+                "export-notion"
+            );
+
+            notionPageUrl = exportResult.notionPageUrl;
+            retry_triggered = exportResult.retry_triggered;
+            total_blocks_generated = exportResult.total_blocks_generated;
+            total_chars_sent = exportResult.total_chars_sent;
+
+        } catch (exportErr: any) {
+            console.error("Notion export failed:", exportErr);
+
+            await supabase
+                .from("content_runs")
+                .update({
+                    status: "complete_with_export_warning",
+                    step_timings: stepTimings,
+                    updated_at: new Date().toISOString(),
+                })
+                .eq("id", runId);
+
+            return NextResponse.json({
+                run_id: runId,
+                status: "complete_with_export_warning",
+                notion_error_message: exportErr.message ?? "export_failed",
+                chunk_retentions: chunkRetentions,
+            }, { status: 200 });
+        }
 
         const { error: exportError } = await supabase
             .from("content_runs")
