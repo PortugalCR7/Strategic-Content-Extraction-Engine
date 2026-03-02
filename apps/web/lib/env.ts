@@ -10,12 +10,6 @@ export const env = {
     // ── LLM ─────────────────────────────────────────
     LLM_API_KEY: process.env["LLM_API_KEY"] ?? "",
 
-    // ── Google Docs ─────────────────────────────────
-    GOOGLE_PROJECT_ID: process.env["GOOGLE_PROJECT_ID"] ?? "",
-    GOOGLE_CLIENT_EMAIL: process.env["GOOGLE_CLIENT_EMAIL"] ?? "",
-    GOOGLE_PRIVATE_KEY: process.env["GOOGLE_PRIVATE_KEY"] ?? "",
-    GOOGLE_DOCS_FOLDER_ID: process.env["GOOGLE_DOCS_FOLDER_ID"] ?? "",
-
     // ── Notion ──────────────────────────────────────
     NOTION_API_KEY: process.env["NOTION_API_KEY"] ?? "",
     NOTION_CLIENT_ID: process.env["NOTION_CLIENT_ID"] ?? "",
