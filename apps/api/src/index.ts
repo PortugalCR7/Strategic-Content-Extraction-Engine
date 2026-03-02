@@ -241,9 +241,9 @@ app.get("/auth/notion/callback", async (request, reply) => {
         reply.setCookie("sce_session", session.id, {
             path: "/",
             httpOnly: true,
-            secure: isProd,
-            sameSite: isProd ? "none" : "lax",
-            maxAge: 7 * 24 * 60 * 60, // 7 days
+            secure: true,            // FORCE TRUE
+            sameSite: "none",        // FORCE NONE
+            maxAge: 7 * 24 * 60 * 60
         });
 
         // Redirect back to frontend container selection
