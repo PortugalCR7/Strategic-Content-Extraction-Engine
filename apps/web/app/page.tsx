@@ -1,7 +1,6 @@
+export const dynamic = "force-dynamic";
 import Workspace from "@/components/Workspace";
 import { getSession } from "@/lib/api";
-
-export const dynamic = "force-dynamic";
 
 export default async function Home() {
     // ── Pre-fetch session for instant server-side state (if possible) ──
