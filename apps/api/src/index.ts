@@ -110,19 +110,11 @@ const MATRIX_SYSTEM_INSTRUCTION = [
 const app = Fastify({ logger: true, trustProxy: true });
 
 await app.register(cors, {
-    origin: (origin, callback) => {
-        const allowed = [
-            "http://localhost:3002",
-            "https://strategic-content-extraction-engine.vercel.app",
-        ];
-
-        if (!origin || allowed.includes(origin)) {
-            callback(null, true);
-        } else {
-            callback(new Error("Not allowed by CORS"), false);
-        }
-    },
-    credentials: true,
+    origin: [
+        "http://localhost:3002",
+        "https://strategic-content-extraction-engine.vercel.app"
+    ],
+    credentials: true
 });
 
 await app.register(cookie);
